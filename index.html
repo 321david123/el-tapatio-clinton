@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO ===== -->
+  <title>El Tapatio of Clinton | Authentic Mexican Restaurant &amp; Taquería · Clinton, IA</title>
+  <meta name="description" content="Authentic Mexican from authentic Mexican people — serving Clinton, Iowa since 2005. Sizzling fajitas, quesabirrias, chile relleno, homemade chips &amp; salsa and margaritas by the pitcher. Dine-in · takeout · delivery at 2300 Camanche Ave." />
+  <meta name="keywords" content="El Tapatio Clinton, Mexican restaurant Clinton Iowa, authentic Mexican Clinton IA, taqueria Clinton, fajitas, quesabirrias, margaritas, tacos Clinton Iowa" />
+  <meta name="theme-color" content="#B4232A" />
+  <link rel="canonical" href="https://321david123.github.io/el-tapatio-clinton/" />
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:site_name" content="El Tapatio of Clinton" />
+  <meta property="og:title" content="El Tapatio of Clinton — Authentic Mexican Restaurant" />
+  <meta property="og:description" content="Authentic Mexican from authentic Mexican people, serving Clinton, Iowa since 2005. Fajitas, quesabirrias, tacos &amp; margaritas by the pitcher." />
+  <meta property="og:image" content="https://321david123.github.io/el-tapatio-clinton/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="1933" />
+  <meta property="og:image:alt" content="A spread of authentic Mexican plates at El Tapatio of Clinton" />
+  <meta property="og:url" content="https://321david123.github.io/el-tapatio-clinton/" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ===== Twitter ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="El Tapatio of Clinton — Authentic Mexican Restaurant" />
+  <meta name="twitter:description" content="Authentic Mexican from authentic Mexican people, serving Clinton, Iowa since 2005." />
+  <meta name="twitter:image" content="https://321david123.github.io/el-tapatio-clinton/assets/og-image.jpg" />
+
+  <!-- ===== Favicon ===== -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+  <!-- ===== Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <!-- ===== Swiper ===== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- ===== Styles ===== -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- If JS is disabled, never leave reveal content hidden -->
+  <noscript><style>
+    [data-reveal]{opacity:1!important;transform:none!important}
+    .hero__img{transform:scale(1.05)!important}
+  </style></noscript>
+
+  <!-- ===== Structured Data ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "El Tapatio of Clinton",
+    "description": "Authentic Mexican restaurant and taquería in Clinton, Iowa, serving the community since 2005.",
+    "image": "https://321david123.github.io/el-tapatio-clinton/assets/og-image.jpg",
+    "servesCuisine": "Mexican",
+    "priceRange": "$$",
+    "telephone": "+1-563-242-3885",
+    "url": "https://321david123.github.io/el-tapatio-clinton/",
+    "foundingDate": "2005",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2300 Camanche Ave",
+      "addressLocality": "Clinton",
+      "addressRegion": "IA",
+      "postalCode": "52732",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "11:00", "closes": "21:00" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip link -->
+  <a href="#signatures" class="skip-link">Skip to the food</a>
+
+  <!-- Grain / noise overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="El Tapatio of Clinton home">
+        <span class="nav__mark" aria-hidden="true">ET</span>
+        <span class="nav__name">El Tapatio <em>of Clinton</em></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#signatures">The Food</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="tel:+15632423885" class="btn btn--ghost nav__call">(563) 242-3885</a>
+        <a href="tel:+15632423885" class="btn btn--solid">Order &amp; Pickup</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="overlay">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE OVERLAY ============ -->
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="overlay__close" id="overlayClose" aria-label="Close menu">&times;</button>
+    <nav class="overlay__nav" aria-label="Mobile">
+      <a href="#story">Story</a>
+      <a href="#signatures">The Food</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="overlay__actions">
+      <a href="tel:+15632423885" class="btn btn--solid">Call to Order</a>
+      <a href="https://www.google.com/maps?q=El+Tapatio+2300+Camanche+Ave+Clinton+IA+52732" target="_blank" rel="noopener" class="btn btn--ghost">Get Directions</a>
+    </div>
+    <p class="overlay__addr">2300 Camanche Ave · Clinton, Iowa</p>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/hero.jpg" alt="" class="hero__img" id="heroImg" fetchpriority="high" decoding="async" />
+        <div class="hero__scrim"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow" data-reveal>Clinton, Iowa · Since 2005</p>
+        <h1 class="hero__title">
+          <span class="hero__script" data-reveal>El Tapatio</span>
+          <span class="hero__sub" data-reveal>of Clinton</span>
+        </h1>
+        <p class="hero__tagline" data-reveal>Comida auténtica — authentic Mexican from authentic Mexican people.</p>
+        <div class="hero__cta" data-reveal>
+          <a href="tel:+15632423885" class="btn btn--solid btn--lg">Call to Order</a>
+          <a href="#signatures" class="btn btn--outline btn--lg">See the Food</a>
+        </div>
+        <p class="hero__note" data-reveal>Dine-in · Takeout · Delivery &nbsp;•&nbsp; Open daily 11am&ndash;9pm</p>
+      </div>
+
+      <a href="#story" class="hero__cue" aria-label="Scroll down">
+        <span class="hero__cue-line"></span>
+        <span class="hero__cue-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story">
+      <div class="story__grid">
+        <div class="story__text">
+          <p class="kicker" data-reveal>Nuestra Historia</p>
+          <h2 class="story__head" data-reveal>Two decades of <em>real</em> Mexican cooking in Clinton.</h2>
+          <p data-reveal>
+            Since 2005, El Tapatio has been a Camanche Avenue fixture — the kind of
+            neighborhood taquería where the chips and salsa are made in-house, the rice gets
+            called "the best I've ever had," and every plate comes out generous and honest.
+          </p>
+          <p data-reveal>
+            The reviews put it best: <em>"authentic Mexican from authentic Mexican people."</em>
+            Nearly twenty years in, that's still the whole idea — recipes cooked the way they're
+            meant to be, at prices that keep Clinton coming back, whether it's a weeknight dinner
+            for the family or margaritas by the pitcher with friends.
+          </p>
+          <a href="#signatures" class="link-underline" data-reveal>Meet the plates &rarr;</a>
+        </div>
+
+        <figure class="story__media">
+          <img src="assets/interior.jpg" alt="The warm dining room at El Tapatio of Clinton, set for dinner" class="story__img" loading="lazy" decoding="async" width="1200" height="800" />
+          <figcaption class="story__cap">Familia &amp; sabor — a table waiting on Camanche Avenue</figcaption>
+        </figure>
+      </div>
+
+      <!-- Stat counters -->
+      <div class="stats" id="stats">
+        <div class="stat" data-reveal>
+          <span class="stat__num" data-count="2005">0</span>
+          <span class="stat__label">Serving Clinton since</span>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="stat__num" data-count="20" data-suffix=" yrs">0</span>
+          <span class="stat__label">Of authentic cooking</span>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="stat__num" data-count="7" data-suffix=" days">0</span>
+          <span class="stat__label">Open every week</span>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="stat__num stat__num--word">100%</span>
+          <span class="stat__label">Made in-house</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURES ============ -->
+    <section class="sig" id="signatures">
+      <div class="sig__intro">
+        <p class="kicker" data-reveal>Lo Mejor de la Casa</p>
+        <h2 class="section-head" data-reveal>The plates<br />Clinton comes back for.</h2>
+        <p class="sig__note" data-reveal>A taste of the menu below. Full menu and daily specials at the table — just call to order ahead.</p>
+      </div>
+
+      <!-- Row 1 -->
+      <article class="sig__row">
+        <figure class="sig__media">
+          <img src="assets/fajitas.jpg" alt="Sizzling mixed steak and chicken fajitas with grilled peppers and onions" loading="lazy" decoding="async" width="1000" height="562" />
+        </figure>
+        <div class="sig__body">
+          <span class="sig__index">01</span>
+          <h3 class="sig__title" data-letters>Sizzling Fajitas</h3>
+          <p class="sig__desc">Mixed steak &amp; chicken grilled with peppers and onions, brought to the
+            table still sizzling with warm tortillas, rice and beans. The dish reviewers just call "amazing."</p>
+          <span class="sig__price">Steak · Chicken · Mixed</span>
+          <a href="tel:+15632423885" class="link-underline">Call to order &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Row 2 (reversed) -->
+      <article class="sig__row sig__row--rev">
+        <figure class="sig__media">
+          <img src="assets/quesabirria.jpg" alt="Quesabirrias — crisp cheese-griddled birria tacos with a rich consomé for dipping" loading="lazy" decoding="async" width="1000" height="667" />
+        </figure>
+        <div class="sig__body">
+          <span class="sig__index">02</span>
+          <h3 class="sig__title" data-letters>Quesabirrias</h3>
+          <p class="sig__desc">Slow-cooked birria folded into crisp, cheese-griddled tacos with a deep,
+            rich consomé for dipping — the house favorite everyone's ordering right now.</p>
+          <span class="sig__price">$14.99</span>
+          <a href="tel:+15632423885" class="link-underline">Call to order &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Row 3 -->
+      <article class="sig__row">
+        <figure class="sig__media">
+          <img src="assets/enchiladas.jpg" alt="Chile relleno and enchiladas plated with Mexican rice and refried beans" loading="lazy" decoding="async" width="1000" height="1450" />
+        </figure>
+        <div class="sig__body">
+          <span class="sig__index">03</span>
+          <h3 class="sig__title" data-letters>Chile Relleno &amp; Enchiladas</h3>
+          <p class="sig__desc">The classics done right — a roasted poblano stuffed with cheese, and
+            enchiladas smothered in sauce, served with that rice guests can't stop talking about.</p>
+          <span class="sig__price">House plates</span>
+          <a href="tel:+15632423885" class="link-underline">Call to order &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Row 4 (reversed) -->
+      <article class="sig__row sig__row--rev">
+        <figure class="sig__media">
+          <img src="assets/margaritas.jpg" alt="Frosty house margaritas, served by the glass or the pitcher" loading="lazy" decoding="async" width="1000" height="667" />
+        </figure>
+        <div class="sig__body">
+          <span class="sig__index">04</span>
+          <h3 class="sig__title" data-letters>Margaritas by the Pitcher</h3>
+          <p class="sig__desc">"Great and inexpensive," say the regulars — poured by the glass or the
+            pitcher for the table. The easiest way to turn a weeknight into a little fiesta.</p>
+          <span class="sig__price">Glass · Pitcher</span>
+          <a href="#visit" class="link-underline">Find us on Camanche Ave &rarr;</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ FAVORITES BANNER ============ -->
+    <section class="banner" aria-label="House favorites">
+      <div class="banner__inner">
+        <span class="banner__script" data-reveal>De la cocina</span>
+        <h2 class="banner__title" data-reveal>Carnitas · Tamales · Homemade Chips &amp; Salsa</h2>
+        <p data-reveal>Excellent carnitas, tamales locals call the best in a long time, and chips &amp; salsa made fresh in-house — all part of the full menu.</p>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="gallery__head">
+        <p class="kicker" data-reveal>La Galería</p>
+        <h2 class="section-head" data-reveal>Straight from the kitchen.</h2>
+        <p class="gallery__note" data-reveal>A look at the flavors — swap in your own photos any time.</p>
+      </div>
+
+      <div class="swiper gallery__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery__slide"><img src="assets/tacos.jpg" alt="Street-style tacos with cilantro, onion and lime" loading="lazy" decoding="async" width="1000" height="667" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/fajitas.jpg" alt="Mixed fajitas sizzling with peppers and onions" loading="lazy" decoding="async" width="1000" height="562" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/quesabirria.jpg" alt="Quesabirria tacos with consomé for dipping" loading="lazy" decoding="async" width="1000" height="667" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/chips-salsa.jpg" alt="Homemade chips, salsa and fresh guacamole" loading="lazy" decoding="async" width="1000" height="667" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/enchiladas.jpg" alt="Enchiladas and chile relleno on a plate with rice and beans" loading="lazy" decoding="async" width="1000" height="1450" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/margaritas.jpg" alt="House margaritas ready to serve" loading="lazy" decoding="async" width="1000" height="667" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/interior.jpg" alt="The warm El Tapatio dining room" loading="lazy" decoding="async" width="1200" height="800" /></div>
+        </div>
+        <div class="gallery__nav">
+          <button class="gallery__btn gallery__btn--prev" aria-label="Previous">&larr;</button>
+          <button class="gallery__btn gallery__btn--next" aria-label="Next">&rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="feat" aria-label="Why El Tapatio">
+      <div class="feat__grid">
+        <div class="feat__item" data-reveal>
+          <svg viewBox="0 0 24 24" class="feat__ico" aria-hidden="true"><path d="M7 3v9a5 5 0 0 0 10 0V3M12 17v4M5 3h14"/></svg>
+          <h3>Dine-In</h3>
+          <p>A warm, family-friendly room — seven days a week on Camanche Ave.</p>
+        </div>
+        <div class="feat__item" data-reveal>
+          <svg viewBox="0 0 24 24" class="feat__ico" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 0 1-1.5 1.3H7.7a1.5 1.5 0 0 1-1.5-1.3L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <h3>Takeout</h3>
+          <p>Call ahead at (563) 242-3885 and your favorites are bagged to go.</p>
+        </div>
+        <div class="feat__item" data-reveal>
+          <svg viewBox="0 0 24 24" class="feat__ico" aria-hidden="true"><path d="M3 16V8a1 1 0 0 1 1-1h9v9M13 9h4l3 3.5V16M3 16h17"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+          <h3>Delivery</h3>
+          <p>Authentic Mexican, brought right to your door around Clinton.</p>
+        </div>
+        <div class="feat__item" data-reveal>
+          <svg viewBox="0 0 24 24" class="feat__ico" aria-hidden="true"><path d="M8 3h8l-1 8a3 3 0 0 1-6 0L8 3zM12 14v5M8 21h8"/></svg>
+          <h3>Full Bar</h3>
+          <p>Margaritas by the glass or pitcher, cold cervezas and sangria.</p>
+        </div>
+        <div class="feat__item" data-reveal>
+          <svg viewBox="0 0 24 24" class="feat__ico" aria-hidden="true"><path d="M4 14a8 8 0 0 1 16 0M3 14h18l-1.5 4.5a1.5 1.5 0 0 1-1.4 1H5.9a1.5 1.5 0 0 1-1.4-1L3 14zM12 6V3"/></svg>
+          <h3>Made In-House</h3>
+          <p>Chips, salsa and that famous rice — prepared fresh every day.</p>
+        </div>
+        <div class="feat__item" data-reveal>
+          <svg viewBox="0 0 24 24" class="feat__ico" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a7 7 0 0 1 14 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg>
+          <h3>Since 2005</h3>
+          <p>Nearly twenty years serving the Clinton community, and counting.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="reviews__head">
+        <p class="kicker" data-reveal>Lo que dicen</p>
+        <h2 class="section-head section-head--light" data-reveal>Loved by Clinton.</h2>
+      </div>
+
+      <div class="swiper reviews__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide review">
+            <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="review__quote">"Authentic Mexican from authentic Mexican people. Great place to eat — never had a bad meal there."</blockquote>
+            <cite class="review__by">El Tapatio guest <span>· Tripadvisor</span></cite>
+          </div>
+          <div class="swiper-slide review">
+            <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="review__quote">"Best rice I've ever had at a restaurant. Prices reasonable, and the chips and salsa are good!"</blockquote>
+            <cite class="review__by">El Tapatio guest <span>· Tripadvisor</span></cite>
+          </div>
+          <div class="swiper-slide review">
+            <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="review__quote">"The food is always tasty, the prices are reasonable and the staff is friendly."</blockquote>
+            <cite class="review__by">El Tapatio guest <span>· Tripadvisor</span></cite>
+          </div>
+          <div class="swiper-slide review">
+            <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="review__quote">"Excellent carnitas and great margaritas — inexpensive too. A Clinton staple."</blockquote>
+            <cite class="review__by">El Tapatio guest <span>· Tripadvisor</span></cite>
+          </div>
+        </div>
+        <div class="swiper-pagination reviews__dots"></div>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info">
+          <p class="kicker" data-reveal>Visítanos</p>
+          <h2 class="section-head" data-reveal>Find us in Clinton.</h2>
+
+          <div class="visit__block" data-reveal>
+            <h3>Address</h3>
+            <p><a href="https://www.google.com/maps?q=El+Tapatio+2300+Camanche+Ave+Clinton+IA+52732" target="_blank" rel="noopener">2300 Camanche Ave<br />Clinton, IA 52732</a></p>
+          </div>
+
+          <div class="visit__block" data-reveal>
+            <h3>Order &amp; Contact</h3>
+            <p><a href="tel:+15632423885">(563) 242-3885</a></p>
+          </div>
+
+          <div class="visit__block" data-reveal>
+            <h3>Hours</h3>
+            <table class="hours" id="hours">
+              <tbody>
+                <tr><th scope="row">Monday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+                <tr><th scope="row">Tuesday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+                <tr><th scope="row">Wednesday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+                <tr><th scope="row">Thursday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+                <tr><th scope="row">Friday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+                <tr><th scope="row">Saturday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+                <tr><th scope="row">Sunday</th><td>11:00 AM &ndash; 9:00 PM</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="visit__cta" data-reveal>
+            <a href="tel:+15632423885" class="btn btn--solid">Call to Order</a>
+            <a href="https://www.google.com/maps?q=El+Tapatio+2300+Camanche+Ave+Clinton+IA+52732" target="_blank" rel="noopener" class="btn btn--outline">Get Directions</a>
+          </div>
+        </div>
+
+        <div class="visit__map" data-reveal>
+          <iframe
+            title="Map to El Tapatio of Clinton, 2300 Camanche Ave, Clinton, IA"
+            src="https://www.google.com/maps?q=El+Tapatio+2300+Camanche+Ave+Clinton+IA+52732&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="footer__script">El Tapatio</span>
+        <p class="footer__tag">Authentic Mexican from authentic Mexican people.<br />Serving Clinton, Iowa since 2005.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <p>2300 Camanche Ave<br />Clinton, IA 52732</p>
+        <a href="tel:+15632423885">(563) 242-3885</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Hours</h4>
+        <p>Open daily<br />11:00 AM &ndash; 9:00 PM</p>
+        <p>Dine-in · Takeout · Delivery</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Connect</h4>
+        <a href="https://www.facebook.com/p/El-Tapatio-of-Clinton-100068214784825/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.google.com/maps?q=El+Tapatio+2300+Camanche+Ave+Clinton+IA+52732" target="_blank" rel="noopener">Directions</a>
+        <a href="tel:+15632423885">Call Us</a>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <p>&copy; 2026 El Tapatio of Clinton. All rights reserved.</p>
+      <p>2300 Camanche Ave · Clinton, IA · (563) 242-3885</p>
+    </div>
+  </footer>
+
+  <!-- ============ MOBILE ACTION BAR ============ -->
+  <nav class="mbar" aria-label="Quick actions">
+    <a href="tel:+15632423885" class="mbar__btn"><span>Call</span></a>
+    <a href="https://www.google.com/maps?q=El+Tapatio+2300+Camanche+Ave+Clinton+IA+52732" target="_blank" rel="noopener" class="mbar__btn"><span>Map</span></a>
+    <a href="tel:+15632423885" class="mbar__btn mbar__btn--primary"><span>Order</span></a>
+  </nav>
+
+  <!-- ============ Scripts ============ -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <!-- visibility failsafe: show content even if GSAP/observer is delayed or blocked -->
+  <script>
+    setTimeout(function(){
+      document.querySelectorAll("[data-reveal]").forEach(function(e){ e.classList.add("is-visible"); });
+      document.querySelectorAll(".hero__script,.hero__sub,.hero__tagline,.hero__cta,.hero__eyebrow,.hero__note").forEach(function(e){
+        e.style.opacity="1"; e.style.transform="none"; e.style.visibility="visible";
+      });
+    }, 2200);
+  </script>
+</body>
+</html>
